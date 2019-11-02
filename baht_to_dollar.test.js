@@ -15,6 +15,6 @@ test('input is 70', () => {
 test('input is 100', () => {
     expect(converter(100)).toEqual('$3.31');
 });
-test('welcome to Thailand', () => {
-    expect(converter('welcome to Thailand')).toEqual('error');
+test('ballboo', () => {
+    expect(converter('ballboo')).toEqual('error');
 }); 
